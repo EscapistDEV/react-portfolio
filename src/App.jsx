@@ -1,5 +1,5 @@
 import React from "react"
-import { Header, Footer, Clients, Contact, About, Skills, Portfolio, Services, Home } from "./components/index"
+import { Header, Footer, Clients, Contact, About, Skills, Portfolio, Services, Home, Nav } from "./components/index"
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
       <div className="container">
           <h1> React Portfolio </h1>
     <Footer/>
+    <Nav/>
       </div>
     </>
   )
