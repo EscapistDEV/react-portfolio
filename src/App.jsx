@@ -5,11 +5,12 @@ function App() {
 
   return (
     <>
+    <Nav/>
+    <Home/>
     <Header/>
       <div className="container">
           <h1> React Portfolio </h1>
     <Footer/>
-    <Nav/>
       </div>
     </>
   )
